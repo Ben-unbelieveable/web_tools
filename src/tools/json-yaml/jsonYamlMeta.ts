@@ -5,6 +5,7 @@ export const jsonYamlMeta: ToolMeta = {
   path: '/json-yaml',
   title: 'JSON / YAML',
   description: '在 JSON 与 YAML 之间转换，并做语法检查。',
+  category: 'format',
   tags: ['json', 'yaml', 'format'],
   capabilities: ['paste-text'],
 }

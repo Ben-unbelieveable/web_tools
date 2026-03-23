@@ -51,12 +51,8 @@ export function BamFlagsTool() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           inputMode="numeric"
-          aria-describedby="flag-hint"
         />
       </label>
-      <p id="flag-hint" className="muted small">
-        当前解析：{flagFromInput === null ? '无法解析' : `十进制 ${flagFromInput}，十六进制 0x${flagFromInput.toString(16)}`}
-      </p>
 
       <div className="flag-grid">
         {FLAG_BITS.map((f) => {
