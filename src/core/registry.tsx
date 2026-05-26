@@ -8,6 +8,7 @@ import {
   RandomSequenceTool,
   RevcompTool,
   SequenceStatsTool,
+  SequenceTranslateTool,
 } from './lazyToolComponents'
 import { argoWorkflowMeta } from '../tools/argo-workflow/argoWorkflowMeta'
 import { bamFlagsMeta } from '../tools/bam-flags/bamFlagsMeta'
@@ -17,6 +18,7 @@ import { qualityScoreMeta } from '../tools/quality-score/qualityScoreMeta'
 import { randomSequenceMeta } from '../tools/random-sequence/randomSequenceMeta'
 import { revcompMeta } from '../tools/revcomp/revcompMeta'
 import { sequenceStatsMeta } from '../tools/sequence-stats/sequenceStatsMeta'
+import { sequenceTranslateMeta } from '../tools/seq-translate/sequenceTranslateMeta'
 
 const modules: ToolModule[] = [
   { meta: bamFlagsMeta, Component: BamFlagsTool },
@@ -24,6 +26,7 @@ const modules: ToolModule[] = [
   { meta: randomSequenceMeta, Component: RandomSequenceTool },
   { meta: sequenceStatsMeta, Component: SequenceStatsTool },
   { meta: revcompMeta, Component: RevcompTool },
+  { meta: sequenceTranslateMeta, Component: SequenceTranslateTool },
   { meta: qualityScoreMeta, Component: QualityScoreTool },
   { meta: primerEstimateMeta, Component: PrimerEstimateTool },
   { meta: argoWorkflowMeta, Component: ArgoWorkflowTool },

@@ -42,3 +42,9 @@ export const ArgoWorkflowTool = lazy(() =>
     default: m.ArgoWorkflowTool,
   })),
 )
+
+export const SequenceTranslateTool = lazy(() =>
+  import('../tools/seq-translate/SequenceTranslateTool').then((m) => ({
+    default: m.SequenceTranslateTool,
+  })),
+)
