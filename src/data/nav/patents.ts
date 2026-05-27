@@ -6,7 +6,7 @@ export const patentsLinks = [
     name: '国家知识产权局',
     url: 'https://www.cnipa.gov.cn/',
     description: '中国官方知识产权管理和服务机构。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -14,7 +14,7 @@ export const patentsLinks = [
     name: '专利之星检索系统',
     url: 'http://www.patentstar.com.cn/',
     description: '专业的专利检索平台。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -22,7 +22,7 @@ export const patentsLinks = [
     name: 'SooPAT',
     url: 'https://www.soopat.com/',
     description: '专业的专利搜索引擎。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -30,7 +30,7 @@ export const patentsLinks = [
     name: '大为专利搜索',
     url: 'https://www.innojoy.com/',
     description: '中外专利搜索引擎。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -38,7 +38,7 @@ export const patentsLinks = [
     name: '中国专利全文',
     url: 'https://www.cnpat.com.cn/',
     description: '中国专利文献免费下载服务。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -46,7 +46,7 @@ export const patentsLinks = [
     name: 'WIPO',
     url: 'https://www.wipo.int/',
     description: '世界知识产权组织专利检索系统。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -54,7 +54,7 @@ export const patentsLinks = [
     name: 'FPO',
     url: 'https://www.freepatentsonline.com/',
     description: '免费海外专利检索平台。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -62,7 +62,7 @@ export const patentsLinks = [
     name: 'KIPRIS',
     url: 'https://www.kipris.or.kr/',
     description: '韩国知识产权信息服务平台。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -70,7 +70,7 @@ export const patentsLinks = [
     name: 'EPO',
     url: 'https://www.epo.org/',
     description: '欧洲专利局官方网站。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -78,7 +78,7 @@ export const patentsLinks = [
     name: 'USPTO',
     url: 'https://www.uspto.gov/',
     description: '美国专利商标局官方网站。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -86,7 +86,7 @@ export const patentsLinks = [
     name: '欧洲专利全文',
     url: 'https://data.epo.org/',
     description: '欧洲专利文献免费下载服务。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
   link({
@@ -94,7 +94,7 @@ export const patentsLinks = [
     name: '美国专利全文',
     url: 'https://patents.google.com/',
     description: 'Google Patents 美国专利全文检索。',
-    categories: ['patents'],
+    section: 'patents',
     tags: ['patent'],
   }),
 ]

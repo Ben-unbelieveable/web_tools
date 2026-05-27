@@ -6,7 +6,7 @@ export const communityLinks = [
     name: 'ResearchGate',
     url: 'https://www.researchgate.net/',
     description: '全球最大的科研社交网络平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['community'],
   }),
   link({
@@ -14,15 +14,7 @@ export const communityLinks = [
     name: '科学网',
     url: 'https://www.sciencenet.cn/',
     description: '全球华人科学社区平台。',
-    categories: ['community'],
-    tags: ['community'],
-  }),
-  link({
-    id: 'pinggu',
-    name: '经管之家',
-    url: 'https://bbs.pinggu.org/',
-    description: '国内最大的经济管理学术交流平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['community'],
   }),
   link({
@@ -30,7 +22,7 @@ export const communityLinks = [
     name: '生物谷',
     url: 'https://www.bioon.com/',
     description: '专业的生物医药科技资讯平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['biomed'],
   }),
   link({
@@ -38,7 +30,7 @@ export const communityLinks = [
     name: '丁香园',
     url: 'https://www.dxy.cn/',
     description: '中国最大的医疗领域社区平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['medicine'],
   }),
   link({
@@ -46,7 +38,7 @@ export const communityLinks = [
     name: '果壳网',
     url: 'https://www.guokr.com/',
     description: '泛科技主题的科普社区平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['science'],
   }),
   link({
@@ -54,7 +46,7 @@ export const communityLinks = [
     name: '科研之友',
     url: 'https://www.scholarmate.com/',
     description: '专业的科研社交与协作平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['community'],
   }),
   link({
@@ -62,7 +54,7 @@ export const communityLinks = [
     name: 'LabRoots',
     url: 'https://www.labroots.com/',
     description: '全球领先的科学社交网络平台。',
-    categories: ['community'],
+    section: 'community',
     tags: ['community'],
   }),
   link({
@@ -70,7 +62,7 @@ export const communityLinks = [
     name: '知乎',
     url: 'https://www.zhihu.com/',
     description: '中文互联网高质量问答社区。',
-    categories: ['community'],
+    section: 'community',
     tags: ['community'],
   }),
 ]

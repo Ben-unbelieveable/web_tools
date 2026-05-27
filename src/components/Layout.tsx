@@ -1,33 +1,40 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { listNavSections } from '../core/navSections'
+import type { NavSection } from '../core/navTypes'
+
+function isSectionActive(pathname: string, section: NavSection): boolean {
+  if (section.id === 'online-tools') {
+    return pathname === section.path || pathname.startsWith('/tools/')
+  }
+  return pathname === section.path
+}
 
 export function Layout() {
   const { pathname } = useLocation()
-  const isNavHome = pathname === '/'
-  const toolsActive = pathname === '/tools' || pathname.startsWith('/tools/')
-  const brandLabel = isNavHome ? '资源导航' : '在线工具'
-  const brandTo = isNavHome ? '/' : '/tools'
+  const sections = listNavSections()
+  const activeSection = sections.find((s) => isSectionActive(pathname, s))
+  const brandLabel = activeSection?.label ?? '资源导航'
+  const brandTo = activeSection?.path ?? '/online-tools'
 
   return (
     <div className="app">
       <header className="header">
-        <div className="header-inner row between wrap gap">
-          <NavLink to={brandTo} className="brand" end={isNavHome || pathname === '/tools'}>
+        <div className="header-inner header-inner--stack">
+          <NavLink to={brandTo} className="brand">
             {brandLabel}
           </NavLink>
-          <nav className="header-nav row gap" aria-label="站点导航">
-            <NavLink
-              to="/"
-              className={({ isActive }) => `header-nav-link ${isActive ? 'active' : ''}`}
-              end
-            >
-              资源导航
-            </NavLink>
-            <NavLink
-              to="/tools"
-              className={() => `header-nav-link ${toolsActive ? 'active' : ''}`}
-            >
-              在线工具
-            </NavLink>
+          <nav className="header-nav header-nav--sections" aria-label="资源分类">
+            {sections.map((s) => (
+              <NavLink
+                key={s.id}
+                to={s.path}
+                className={() =>
+                  `header-nav-link ${isSectionActive(pathname, s) ? 'active' : ''}`
+                }
+              >
+                {s.label}
+              </NavLink>
+            ))}
           </nav>
         </div>
       </header>

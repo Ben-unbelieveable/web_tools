@@ -5,8 +5,9 @@ export const dataMiningLinks = [
     id: 'weiciyun',
     name: '微词云',
     url: 'https://www.weiciyun.com/',
+    icon: 'https://wcy-1255936925.file.myqcloud.com/pb/nlogo.svg',
     description: '简单强大的文本分析、词云图生成工具。',
-    categories: ['data-mining'],
+    section: 'online-tools',
     tags: ['text'],
   }),
   link({
@@ -14,7 +15,7 @@ export const dataMiningLinks = [
     name: 'GEPIA 2',
     url: 'http://gepia2.cancer-pku.cn/',
     description: '基于 TCGA 和 GTEx 数据的癌症转录组学分析平台。',
-    categories: ['data-mining', 'online-tools-ext'],
+    section: 'online-tools',
     tags: ['tcga', 'expression'],
   }),
   link({
@@ -22,7 +23,7 @@ export const dataMiningLinks = [
     name: 'cBioPortal',
     url: 'https://www.cbioportal.org/',
     description: '多维度肿瘤基因组数据可视化和分析平台。',
-    categories: ['data-mining', 'online-tools-ext'],
+    section: 'online-tools',
     tags: ['cancer', 'genomics'],
   }),
   link({
@@ -30,7 +31,7 @@ export const dataMiningLinks = [
     name: 'OncoLnc',
     url: 'http://www.oncolnc.org/',
     description: '整合多种癌症数据的生存分析工具。',
-    categories: ['data-mining'],
+    section: 'online-tools',
     tags: ['cancer', 'survival'],
   }),
   link({
@@ -38,7 +39,7 @@ export const dataMiningLinks = [
     name: 'CCLE',
     url: 'https://sites.broadinstitute.org/ccle',
     description: '癌症细胞系基因组特征的综合数据库。',
-    categories: ['data-mining'],
+    section: 'databases',
     tags: ['cancer', 'cell-line'],
   }),
   link({
@@ -46,7 +47,7 @@ export const dataMiningLinks = [
     name: 'Coexpedia',
     url: 'http://www.coexpedia.org/',
     description: '基于文献的基因共表达网络分析平台。',
-    categories: ['data-mining'],
+    section: 'databases',
     tags: ['coexpression'],
   }),
   link({
@@ -54,7 +55,7 @@ export const dataMiningLinks = [
     name: 'PrognoScan',
     url: 'http://www.abren.net/PrognoScan/',
     description: '基于公共数据的癌症预后分析工具。',
-    categories: ['data-mining'],
+    section: 'online-tools',
     tags: ['prognosis'],
   }),
   link({
@@ -62,7 +63,7 @@ export const dataMiningLinks = [
     name: 'miRBase',
     url: 'https://www.mirbase.org/',
     description: '权威的 microRNA 序列和注释数据库。',
-    categories: ['data-mining'],
+    section: 'databases',
     tags: ['mirna'],
   }),
   link({
@@ -70,7 +71,7 @@ export const dataMiningLinks = [
     name: 'NetworkAnalyst',
     url: 'https://www.networkanalyst.ca/',
     description: '基因表达数据的系统级分析平台。',
-    categories: ['data-mining'],
+    section: 'online-tools',
     tags: ['network'],
   }),
   link({
@@ -78,7 +79,7 @@ export const dataMiningLinks = [
     name: 'TransmiR',
     url: 'http://www.cuilab.cn/transmir',
     description: '转录因子与 microRNA 互作关系数据库。',
-    categories: ['data-mining'],
+    section: 'databases',
     tags: ['mirna', 'tf'],
   }),
   link({
@@ -86,7 +87,7 @@ export const dataMiningLinks = [
     name: 'HPA',
     url: 'https://www.proteinatlas.org/',
     description: '人类蛋白质表达和定位的系统性研究数据库。',
-    categories: ['data-mining'],
+    section: 'databases',
     tags: ['protein'],
   }),
   link({
@@ -94,7 +95,7 @@ export const dataMiningLinks = [
     name: 'TIMER2.0',
     url: 'http://timer.cistrome.org/',
     description: '肿瘤免疫浸润分析的综合性平台。',
-    categories: ['data-mining'],
+    section: 'online-tools',
     tags: ['immunology', 'cancer'],
   }),
   link({
@@ -102,7 +103,7 @@ export const dataMiningLinks = [
     name: 'Ualcan',
     url: 'http://ualcan.path.uab.edu/',
     description: '用户友好的 TCGA 数据挖掘和分析平台。',
-    categories: ['data-mining'],
+    section: 'online-tools',
     tags: ['tcga'],
   }),
 ]

@@ -6,7 +6,7 @@ export const aiPlatformLinks = [
     name: 'DeepSeek',
     url: 'https://chat.deepseek.com/',
     description: '深度求索 AI 大模型。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -14,7 +14,7 @@ export const aiPlatformLinks = [
     name: '豆包',
     url: 'https://www.doubao.com/',
     description: '字节跳动旗下 AI 助手。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -22,7 +22,7 @@ export const aiPlatformLinks = [
     name: '通义千问',
     url: 'https://tongyi.aliyun.com/',
     description: '阿里巴巴开发的 AI 模型。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -30,7 +30,7 @@ export const aiPlatformLinks = [
     name: '文心一言',
     url: 'https://yiyan.baidu.com/',
     description: '百度开发的 AI 对话模型。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -38,7 +38,7 @@ export const aiPlatformLinks = [
     name: 'Claude',
     url: 'https://claude.ai/',
     description: 'Anthropic 语言模型，文本与代码创作能力俱佳。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -46,7 +46,7 @@ export const aiPlatformLinks = [
     name: 'Kimi',
     url: 'https://kimi.moonshot.cn/',
     description: '月之暗面开发的 AI 助手。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -54,7 +54,7 @@ export const aiPlatformLinks = [
     name: '纳米 AI',
     url: 'https://bot.n.cn/',
     description: '国内 AI 助手，聚合多种大模型。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -62,7 +62,7 @@ export const aiPlatformLinks = [
     name: '腾讯元宝',
     url: 'https://yuanbao.tencent.com/',
     description: '腾讯开发的 AI 助手，混元与 DeepSeek 等模型。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai'],
   }),
   link({
@@ -70,7 +70,7 @@ export const aiPlatformLinks = [
     name: 'NoahAI',
     url: 'https://www.noahai.com/',
     description: '生物医药专业 AI，支持文献与数据库溯源分析。',
-    categories: ['ai-platform'],
+    section: 'ai',
     tags: ['ai', 'biomed'],
   }),
 ]

@@ -6,7 +6,7 @@ export const literatureShareLinks = [
     name: '科研通',
     url: 'https://www.ablesci.com/',
     description: '文献互助平台，免费智能化文献下载服务。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -14,7 +14,7 @@ export const literatureShareLinks = [
     name: 'MedReading',
     url: 'https://www.medreading.cn/',
     description: '文献推送和翻译平台。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -22,7 +22,7 @@ export const literatureShareLinks = [
     name: '医脉通文献互助',
     url: 'https://literature.medlive.cn/',
     description: '文献互助。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['medicine'],
   }),
   link({
@@ -30,7 +30,7 @@ export const literatureShareLinks = [
     name: '小木虫文献互助',
     url: 'https://muchong.com/bbs/',
     description: '小木虫学术科研互动社区。',
-    categories: ['literature-share', 'community'],
+    section: 'community',
     tags: ['literature'],
   }),
   link({
@@ -38,7 +38,7 @@ export const literatureShareLinks = [
     name: '百度文献互助',
     url: 'https://xueshu.baidu.com/usercenter/index/literaturehelp',
     description: '百度学术下的文献互助。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -46,7 +46,7 @@ export const literatureShareLinks = [
     name: '文献鸟 Stork',
     url: 'https://www.storkapp.me/',
     description: '追踪新文献。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -54,7 +54,7 @@ export const literatureShareLinks = [
     name: 'Researcher',
     url: 'https://www.researcher-app.com/',
     description: '类似于微博的文献订阅 App。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -62,7 +62,7 @@ export const literatureShareLinks = [
     name: 'Innoreader',
     url: 'https://www.inoreader.com/',
     description: '著名的跨平台 RSS 阅读器。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['rss'],
   }),
   link({
@@ -70,7 +70,7 @@ export const literatureShareLinks = [
     name: 'QuiteRSS',
     url: 'https://quiterss.org/',
     description: '免费开源的 RSS 阅读器。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['rss'],
   }),
   link({
@@ -78,7 +78,7 @@ export const literatureShareLinks = [
     name: 'F1000',
     url: 'https://f1000research.com/',
     description: 'Partner with F1000 to maximize research impact。',
-    categories: ['literature-share'],
+    section: 'literature',
     tags: ['publishing'],
   }),
 ]

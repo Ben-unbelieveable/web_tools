@@ -6,7 +6,7 @@ export const journalsLinks = [
     name: 'Cell',
     url: 'https://www.cell.com/cell',
     description: '国际顶级生命科学期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -14,7 +14,7 @@ export const journalsLinks = [
     name: 'Nature',
     url: 'https://www.nature.com/',
     description: '国际顶级自然科学综合性期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -22,7 +22,7 @@ export const journalsLinks = [
     name: 'Science',
     url: 'https://www.science.org/',
     description: '国际顶级自然科学综合性期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -30,7 +30,7 @@ export const journalsLinks = [
     name: 'Lancet',
     url: 'https://www.thelancet.com/',
     description: '全球最著名的医学期刊之一。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal', 'medicine'],
   }),
   link({
@@ -38,7 +38,7 @@ export const journalsLinks = [
     name: 'NEJM',
     url: 'https://www.nejm.org/',
     description: '新英格兰医学杂志，世界顶级医学期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal', 'medicine'],
   }),
   link({
@@ -46,7 +46,7 @@ export const journalsLinks = [
     name: 'PNAS',
     url: 'https://www.pnas.org/',
     description: '美国国家科学院院刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -54,7 +54,7 @@ export const journalsLinks = [
     name: 'Nature Communications',
     url: 'https://www.nature.com/ncomms/',
     description: 'Nature 子刊，开放获取的多学科期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -62,7 +62,7 @@ export const journalsLinks = [
     name: 'arXiv',
     url: 'https://arxiv.org/',
     description: '著名的预印本网站：物理、数学、计算机与生物学。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['preprint'],
   }),
   link({
@@ -70,7 +70,7 @@ export const journalsLinks = [
     name: 'medRxiv',
     url: 'https://www.medrxiv.org/',
     description: '医学预印本网站。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['preprint', 'medicine'],
   }),
   link({
@@ -78,7 +78,7 @@ export const journalsLinks = [
     name: 'bioRxiv',
     url: 'https://www.biorxiv.org/',
     description: '生物学预印本网站。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['preprint', 'biology'],
   }),
   link({
@@ -86,7 +86,7 @@ export const journalsLinks = [
     name: 'JAMA',
     url: 'https://jamanetwork.com/',
     description: '美国医学会杂志，世界顶级医学期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal', 'medicine'],
   }),
   link({
@@ -94,7 +94,7 @@ export const journalsLinks = [
     name: 'BMJ',
     url: 'https://www.bmj.com/',
     description: '英国医学杂志，具有广泛国际影响力。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal', 'medicine'],
   }),
   link({
@@ -102,7 +102,7 @@ export const journalsLinks = [
     name: 'Cell Press',
     url: 'https://www.cell.com/',
     description: 'Cell 出版社旗下期刊集合。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -110,7 +110,7 @@ export const journalsLinks = [
     name: 'PLOS ONE',
     url: 'https://journals.plos.org/plosone/',
     description: '开放获取综合性学术期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal', 'open-access'],
   }),
   link({
@@ -118,7 +118,7 @@ export const journalsLinks = [
     name: 'eLife',
     url: 'https://elifesciences.org/',
     description: '高质量开放获取生命科学期刊。',
-    categories: ['journals'],
+    section: 'literature',
     tags: ['journal', 'open-access'],
   }),
 ]

@@ -6,7 +6,7 @@ export const literatureTranslateLinks = [
     name: 'DeepL',
     url: 'https://www.deepl.com/translator',
     description: '基于深度学习的高质量翻译工具。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -14,7 +14,7 @@ export const literatureTranslateLinks = [
     name: '谷歌翻译',
     url: 'https://translate.google.com/',
     description: '谷歌的在线翻译服务。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -22,7 +22,7 @@ export const literatureTranslateLinks = [
     name: '有道翻译',
     url: 'https://fanyi.youdao.com/',
     description: '网易旗下的翻译工具。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -30,7 +30,7 @@ export const literatureTranslateLinks = [
     name: '百度翻译',
     url: 'https://fanyi.baidu.com/',
     description: '百度提供的在线翻译服务。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -38,7 +38,7 @@ export const literatureTranslateLinks = [
     name: 'Grammarly',
     url: 'https://www.grammarly.com/',
     description: '英语写作和语法检查工具。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['writing'],
   }),
   link({
@@ -46,7 +46,7 @@ export const literatureTranslateLinks = [
     name: 'Linguee',
     url: 'https://www.linguee.com/',
     description: '双语例句搜索引擎。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -54,7 +54,7 @@ export const literatureTranslateLinks = [
     name: '彩云小译',
     url: 'https://fanyi.caiyunapp.com/',
     description: '智能翻译工具，支持多语言在线翻译。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -62,7 +62,7 @@ export const literatureTranslateLinks = [
     name: 'CNKI 翻译助手',
     url: 'https://dict.cnki.net/',
     description: '中国知网提供的专业翻译工具。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -70,7 +70,7 @@ export const literatureTranslateLinks = [
     name: '金山翻译',
     url: 'https://www.iciba.com/',
     description: '金山提供的在线翻译服务。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -78,7 +78,7 @@ export const literatureTranslateLinks = [
     name: 'DocTranslator',
     url: 'https://www.onlinedoctranslator.com/',
     description: '在线文档翻译工具，支持多种文档格式。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -86,7 +86,7 @@ export const literatureTranslateLinks = [
     name: '搜狗翻译',
     url: 'https://fanyi.sogou.com/',
     description: '搜狗提供的在线翻译服务。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
   link({
@@ -94,7 +94,7 @@ export const literatureTranslateLinks = [
     name: '术语在线',
     url: 'https://www.termonline.cn/',
     description: '专业术语翻译和检索平台。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['terminology'],
   }),
   link({
@@ -102,7 +102,7 @@ export const literatureTranslateLinks = [
     name: 'CopyTranslator',
     url: 'https://copytranslator.github.io/',
     description: '复制即翻译的外文辅助阅读解决方案。',
-    categories: ['literature-translate'],
+    section: 'literature',
     tags: ['translate'],
   }),
 ]

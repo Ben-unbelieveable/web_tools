@@ -6,7 +6,7 @@ export const educationLinks = [
     name: '中国大学 MOOC',
     url: 'https://www.icourse163.org/',
     description: '国家精品课程在线学习平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['mooc'],
   }),
   link({
@@ -14,7 +14,7 @@ export const educationLinks = [
     name: '网易公开课',
     url: 'https://open.163.com/',
     description: '世界名校上千门课程。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['course'],
   }),
   link({
@@ -22,7 +22,7 @@ export const educationLinks = [
     name: '学堂在线',
     url: 'https://www.xuetangx.com/',
     description: '清华大学发起建立的慕课平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['mooc'],
   }),
   link({
@@ -30,7 +30,7 @@ export const educationLinks = [
     name: '好大学在线 CNMOOC',
     url: 'https://www.cnmooc.org/',
     description: '上海交大的慕课平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['mooc'],
   }),
   link({
@@ -38,7 +38,7 @@ export const educationLinks = [
     name: '国图公开课',
     url: 'https://open.nlc.cn/',
     description: '国图开办的通识教育平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['course'],
   }),
   link({
@@ -46,7 +46,7 @@ export const educationLinks = [
     name: '我要自学网',
     url: 'https://www.51zxw.net/',
     description: '免费视频教程。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['course'],
   }),
   link({
@@ -54,7 +54,7 @@ export const educationLinks = [
     name: 'Coursera',
     url: 'https://www.coursera.org/',
     description: '全球顶尖大学和企业的在线课程平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['mooc'],
   }),
   link({
@@ -62,7 +62,7 @@ export const educationLinks = [
     name: 'edX',
     url: 'https://www.edx.org/',
     description: '麻省理工和哈佛共办的 MOOC 平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['mooc'],
   }),
   link({
@@ -70,7 +70,7 @@ export const educationLinks = [
     name: 'TED',
     url: 'https://www.ted.com/',
     description: '分享关于技术、社会、人的思考和探索。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['talk'],
   }),
   link({
@@ -78,7 +78,7 @@ export const educationLinks = [
     name: '一席',
     url: 'https://www.yixi.tv/',
     description: '听行业大佬说清一个议题。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['talk'],
   }),
   link({
@@ -86,7 +86,7 @@ export const educationLinks = [
     name: 'Udemy',
     url: 'https://www.udemy.com/',
     description: '开放式在线教育网站。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['course'],
   }),
   link({
@@ -94,7 +94,7 @@ export const educationLinks = [
     name: '好医生',
     url: 'https://www.haoyisheng.com/',
     description: '远程继续医学教育的综合性互联网站。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['medicine'],
   }),
   link({
@@ -102,7 +102,7 @@ export const educationLinks = [
     name: '网易云课堂',
     url: 'https://study.163.com/',
     description: '专注于成人终身学习。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['course'],
   }),
   link({
@@ -110,7 +110,7 @@ export const educationLinks = [
     name: '腾讯课堂',
     url: 'https://ke.qq.com/',
     description: '职业培训、考试提升在线教育平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['course'],
   }),
   link({
@@ -118,7 +118,7 @@ export const educationLinks = [
     name: '喜马拉雅',
     url: 'https://www.ximalaya.com/',
     description: '专业的音频分享平台。',
-    categories: ['education'],
+    section: 'learning',
     tags: ['audio'],
   }),
 ]

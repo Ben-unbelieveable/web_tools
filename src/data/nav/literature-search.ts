@@ -6,7 +6,7 @@ export const literatureSearchLinks = [
     name: 'PubMed',
     url: 'https://pubmed.ncbi.nlm.nih.gov/',
     description: '美国国立生物技术信息中心的生物医学文献数据库。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature', 'biomed'],
   }),
   link({
@@ -14,7 +14,7 @@ export const literatureSearchLinks = [
     name: '中国知网',
     url: 'https://www.cnki.net/',
     description: '中国学术文献、学位论文及各类学术资源的统一检索平台。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature', 'chinese'],
   }),
   link({
@@ -22,7 +22,7 @@ export const literatureSearchLinks = [
     name: 'SCI-Hub',
     url: 'https://sci-hub.se/',
     description: '科研文献获取平台（请遵守当地版权法规）。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -30,7 +30,7 @@ export const literatureSearchLinks = [
     name: 'Web of Science',
     url: 'https://www.webofscience.com/',
     description: '科睿唯安旗下的学术文献数据库与引用分析。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -38,7 +38,7 @@ export const literatureSearchLinks = [
     name: 'Scopus',
     url: 'https://www.scopus.com/',
     description: '爱思唯尔旗下的文摘和引文数据库。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -46,7 +46,7 @@ export const literatureSearchLinks = [
     name: '百度学术',
     url: 'https://xueshu.baidu.com/',
     description: '提供中英文学术资源检索的平台。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature', 'chinese'],
   }),
   link({
@@ -54,7 +54,7 @@ export const literatureSearchLinks = [
     name: 'Google Scholar',
     url: 'https://scholar.google.com/',
     description: '谷歌的学术搜索引擎，跨学科文献检索。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -62,7 +62,7 @@ export const literatureSearchLinks = [
     name: 'ScienceDirect',
     url: 'https://www.sciencedirect.com/',
     description: '爱思唯尔旗下的全文科技文献数据库。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -70,7 +70,7 @@ export const literatureSearchLinks = [
     name: 'Semantic Scholar',
     url: 'https://www.semanticscholar.org/',
     description: '基于 AI 的学术搜索引擎，提供智能文献发现和分析。',
-    categories: ['literature-search', 'research-intel'],
+    section: 'literature',
     tags: ['literature', 'ai'],
   }),
   link({
@@ -78,7 +78,7 @@ export const literatureSearchLinks = [
     name: 'PubMed Pro',
     url: 'https://www.pubmed.pro/',
     description: 'PubMed 中文版，界面友好，显示期刊影响因子。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -86,7 +86,7 @@ export const literatureSearchLinks = [
     name: '万方数据',
     url: 'https://www.wanfangdata.com.cn/',
     description: '中文学术资源门户，期刊、学位论文等。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature', 'chinese'],
   }),
   link({
@@ -94,7 +94,7 @@ export const literatureSearchLinks = [
     name: 'DOAJ',
     url: 'https://doaj.org/',
     description: '开放获取期刊目录，收录高质量 OA 期刊。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['open-access'],
   }),
   link({
@@ -102,7 +102,7 @@ export const literatureSearchLinks = [
     name: 'Europe PMC',
     url: 'https://europepmc.org/',
     description: '欧洲版 PubMed，生物医学开放获取文献。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -110,7 +110,7 @@ export const literatureSearchLinks = [
     name: 'Book学术',
     url: 'https://www.booksci.cn/',
     description: '免费学术资源搜索，方便检索中英文文献。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -118,7 +118,7 @@ export const literatureSearchLinks = [
     name: '维普网',
     url: 'http://www.cqvip.com/',
     description: '国内知名中文学术期刊数据库。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature', 'chinese'],
   }),
   link({
@@ -126,7 +126,7 @@ export const literatureSearchLinks = [
     name: 'SpringerLink',
     url: 'https://link.springer.com/',
     description: '施普林格旗下的在线期刊和电子图书平台。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -134,7 +134,7 @@ export const literatureSearchLinks = [
     name: 'BASE',
     url: 'https://www.base-search.net/',
     description: '比勒费尔德学术搜索引擎，收录超过 2 亿篇科学文献。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -142,7 +142,7 @@ export const literatureSearchLinks = [
     name: '超星期刊',
     url: 'https://qikan.chaoxing.com/',
     description: '国内知名数字资源平台，提供丰富期刊资源。',
-    categories: ['literature-search'],
+    section: 'ebooks',
     tags: ['literature', 'chinese'],
   }),
   link({
@@ -150,7 +150,7 @@ export const literatureSearchLinks = [
     name: 'GeenMedical',
     url: 'https://www.geenmedical.com/',
     description: '基于 SCI-Hub 的医学文献检索平台。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['medicine'],
   }),
   link({
@@ -158,7 +158,7 @@ export const literatureSearchLinks = [
     name: '晨曦科技团队数字图书馆',
     url: 'https://www.5cy.com/',
     description: '综合性学术资源获取平台。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -166,7 +166,7 @@ export const literatureSearchLinks = [
     name: 'OALib',
     url: 'https://www.oalib.com/',
     description: '开放获取图书馆，超过 500 万篇 OA 论文。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['open-access'],
   }),
   link({
@@ -174,7 +174,7 @@ export const literatureSearchLinks = [
     name: '国家哲学社会科学文献中心',
     url: 'https://www.ncpssd.org/',
     description: '中国哲学社会科学文献服务平台。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature', 'chinese'],
   }),
   link({
@@ -182,7 +182,7 @@ export const literatureSearchLinks = [
     name: 'Wiley Online Library',
     url: 'https://onlinelibrary.wiley.com/',
     description: '威利出版社的在线数据库。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -190,7 +190,7 @@ export const literatureSearchLinks = [
     name: 'CNKI 学术图片库',
     url: 'https://image.cnki.net/',
     description: '国内首个专业学术图片知识库。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['images'],
   }),
   link({
@@ -198,7 +198,7 @@ export const literatureSearchLinks = [
     name: 'LitSense',
     url: 'https://www.ncbi.nlm.nih.gov/research/litsense/',
     description: 'NCBI 文献检索工具，支持按段落或句子精确搜索。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -206,7 +206,7 @@ export const literatureSearchLinks = [
     name: 'Open-i',
     url: 'https://openi.nlm.nih.gov/',
     description: '生物医学领域的开放获取图像搜索引擎。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['images'],
   }),
   link({
@@ -214,7 +214,7 @@ export const literatureSearchLinks = [
     name: 'ACS Publications',
     url: 'https://pubs.acs.org/',
     description: '美国化学学会出版平台，化学领域权威期刊。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['chemistry'],
   }),
   link({
@@ -222,7 +222,7 @@ export const literatureSearchLinks = [
     name: '思谋学术',
     url: 'https://ac.scmor.com/',
     description: '自动检测和更新可访问的学术镜像网址。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['literature'],
   }),
   link({
@@ -230,7 +230,7 @@ export const literatureSearchLinks = [
     name: 'Vizio Metrics',
     url: 'https://vizio.ai/',
     description: '专业学术图像检索平台，跨学科图表与视觉资料。',
-    categories: ['literature-search'],
+    section: 'literature',
     tags: ['images'],
   }),
 ]

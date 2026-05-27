@@ -6,7 +6,7 @@ export const researchServiceLinks = [
     name: 'Bioconda',
     url: 'https://bioconda.github.io/',
     description: 'Bioconda.org 生信软件包管理。',
-    categories: ['research-service'],
+    section: 'software',
     tags: ['bioinformatics'],
   }),
   link({
@@ -14,23 +14,15 @@ export const researchServiceLinks = [
     name: 'CPAN',
     url: 'https://www.cpan.org/',
     description: 'Perl 综合典藏网络。',
-    categories: ['research-service'],
+    section: 'software',
     tags: ['perl'],
-  }),
-  link({
-    id: 'galaxy-glitter',
-    name: 'Galaxy Glitter',
-    url: 'https://galaxyproject.org/',
-    description: 'Galaxy 社区与计算平台入口。',
-    categories: ['research-service'],
-    tags: ['galaxy'],
   }),
   link({
     id: 'galaxy-project',
     name: 'Galaxy Project',
     url: 'https://galaxyproject.org/',
     description: 'Galaxy Community Hub。',
-    categories: ['research-service'],
+    section: 'software',
     tags: ['galaxy'],
   }),
   link({
@@ -38,7 +30,7 @@ export const researchServiceLinks = [
     name: 'R Project',
     url: 'https://www.r-project.org/',
     description: 'R 语言官方站点。',
-    categories: ['research-service'],
+    section: 'software',
     tags: ['r'],
   }),
   link({
@@ -46,7 +38,7 @@ export const researchServiceLinks = [
     name: 'Bioconductor',
     url: 'https://www.bioconductor.org/',
     description: 'bioconductor.org 生信 R 包生态。',
-    categories: ['research-service'],
+    section: 'software',
     tags: ['r', 'bioinformatics'],
   }),
 ]

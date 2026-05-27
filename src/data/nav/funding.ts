@@ -6,7 +6,7 @@ export const fundingLinks = [
     name: '国自然项目查询',
     url: 'https://kd.nsfc.cn/',
     description: '1986 年至今已获批自科项目。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -14,7 +14,7 @@ export const fundingLinks = [
     name: '国家自然科学基金委员会',
     url: 'https://www.nsfc.gov.cn/',
     description: '国家自然科学基金委员会官网。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -22,7 +22,7 @@ export const fundingLinks = [
     name: '国家社会科学基金',
     url: 'https://www.npopss-cn.gov.cn/',
     description: '国家社会科学基金科研创新服务管理平台。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -30,7 +30,7 @@ export const fundingLinks = [
     name: '国家科技重大专项',
     url: 'https://service.most.gov.cn/',
     description: '国家科技重大专项。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -38,7 +38,7 @@ export const fundingLinks = [
     name: 'IFS',
     url: 'https://www.ifs.se/',
     description: 'International Science Foundation。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -46,7 +46,7 @@ export const fundingLinks = [
     name: 'NSF',
     url: 'https://www.nsf.gov/',
     description: '美国自然科学基金。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -54,7 +54,7 @@ export const fundingLinks = [
     name: 'NIH',
     url: 'https://www.nih.gov/',
     description: '美国国立卫生研究院。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -62,7 +62,7 @@ export const fundingLinks = [
     name: 'ESF',
     url: 'https://www.esf.org/',
     description: 'European Science Foundation。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
   link({
@@ -70,7 +70,7 @@ export const fundingLinks = [
     name: 'UKRI',
     url: 'https://www.ukri.org/',
     description: '英国研究与创新。',
-    categories: ['funding'],
+    section: 'funding',
     tags: ['funding'],
   }),
 ]

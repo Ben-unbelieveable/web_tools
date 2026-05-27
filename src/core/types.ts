@@ -13,6 +13,8 @@ export interface ToolMeta {
   category: CategoryId
   tags: string[]
   capabilities: ToolCapability[]
+  /** 显式 icon URL；未设置时使用 config/icons 中的本地工具默认占位。 */
+  icon?: string
 }
 
 export interface ToolModule {

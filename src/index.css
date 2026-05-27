@@ -72,6 +72,18 @@ a:hover {
   padding: 1rem 1.25rem;
 }
 
+.header-inner--stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.header-nav--sections {
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  padding-bottom: 0.15rem;
+}
+
 .brand {
   font-size: 1.35rem;
   font-weight: 700;
@@ -100,6 +112,16 @@ a:hover {
 .page--home,
 .page--nav {
   max-width: 1200px;
+}
+
+.section-tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .row.between {
@@ -214,6 +236,94 @@ a:hover {
   min-height: 6.5rem;
   text-decoration: none;
   color: inherit;
+}
+
+.card-tile-icon-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  width: 100%;
+  height: 100%;
+}
+
+.card-tile-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.site-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+/* 远程 logo（含深色底 SVG）在深色主题下加白底，避免看起来像加载失败 */
+.site-icon--remote {
+  background: #fff;
+  padding: 2px;
+}
+
+.site-icon--letter {
+  border-color: transparent;
+  background: transparent;
+  padding: 0;
+}
+
+.site-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: inherit;
+}
+
+.site-icon:not(.site-icon--loaded):not(.site-icon--letter) {
+  background-image: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--border) 35%, transparent) 0%,
+    color-mix(in srgb, var(--border) 55%, transparent) 50%,
+    color-mix(in srgb, var(--border) 35%, transparent) 100%
+  );
+  background-size: 200% 100%;
+  animation: icon-shimmer 1.1s ease-in-out infinite;
+}
+
+.site-icon--remote.site-icon--loaded,
+.site-icon--letter.site-icon--loaded {
+  animation: none;
+  background-image: none;
+}
+
+@keyframes icon-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.card-tile-body .tags {
+  margin-top: auto;
+}
+
+.tool-page-head {
+  align-items: center;
+}
+
+.tool-page-head .h1 {
+  margin: 0;
 }
 
 .resource-card-head {
@@ -340,6 +450,10 @@ a:hover {
   gap: 0.65rem;
   min-height: 7.5rem;
   height: 100%;
+}
+
+.card-tile > .card-tile-icon-row {
+  flex: 1;
 }
 
 .card-tile-title {

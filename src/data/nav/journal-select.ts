@@ -6,7 +6,7 @@ export const journalSelectLinks = [
     name: '科睿唯安 JCR',
     url: 'https://jcr.clarivate.com/',
     description: 'Journal Citation Reports。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -14,7 +14,7 @@ export const journalSelectLinks = [
     name: '中外文核心期刊查询系统',
     url: 'https://www.corejournal.net/',
     description: '上海交大期刊查询。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -22,7 +22,7 @@ export const journalSelectLinks = [
     name: 'iJournal',
     url: 'https://www.ijournal.top/',
     description: '期刊查询与选择服务系统。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -30,7 +30,7 @@ export const journalSelectLinks = [
     name: '小木虫期刊点评',
     url: 'https://muchong.com/bbs/journal.php',
     description: '小木虫期刊点评板块。',
-    categories: ['journal-select'],
+    section: 'community',
     tags: ['journal'],
   }),
   link({
@@ -38,7 +38,7 @@ export const journalSelectLinks = [
     name: 'CSCD 期刊',
     url: 'http://sciencechina.cn/cscd/',
     description: '中国科学文献服务系统。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -46,7 +46,7 @@ export const journalSelectLinks = [
     name: 'Scimagojr',
     url: 'https://www.scimagojr.com/',
     description: '期刊评价、分析、排名。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -54,7 +54,7 @@ export const journalSelectLinks = [
     name: '知网核心期刊查询',
     url: 'https://navi.cnki.net/knavi/',
     description: '出版来源导航。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -62,7 +62,7 @@ export const journalSelectLinks = [
     name: 'Jane',
     url: 'https://jane.biosemantics.org/',
     description: '粘贴标题/摘要选刊。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -70,7 +70,7 @@ export const journalSelectLinks = [
     name: 'JournalFinder',
     url: 'https://journalfinder.elsevier.com/',
     description: 'Elsevier 旗下 SCI 投稿选刊工具。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -78,7 +78,7 @@ export const journalSelectLinks = [
     name: 'JournalGuide',
     url: 'https://journalfinder.researcher.life/',
     description: '粘贴标题/摘要选刊。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -86,7 +86,7 @@ export const journalSelectLinks = [
     name: 'Edanz',
     url: 'https://www.edanz.com/journal-selector',
     description: '粘贴标题/摘要选刊。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -94,7 +94,7 @@ export const journalSelectLinks = [
     name: 'Cofactor Journal Selector',
     url: 'https://cofactor.io/journal-selector',
     description: '根据问题引导选刊。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
   link({
@@ -102,7 +102,7 @@ export const journalSelectLinks = [
     name: 'Journal Suggester',
     url: 'https://link.springer.com/journals',
     description: 'Springer 投稿选刊工具。',
-    categories: ['journal-select'],
+    section: 'literature',
     tags: ['journal'],
   }),
 ]

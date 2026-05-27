@@ -6,7 +6,7 @@ export const plagiarismLinks = [
     name: '百度免费查重',
     url: 'https://xueshu.baidu.com/usercenter/index/plagiarism',
     description: '百度学术集成的免费查重。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -14,7 +14,7 @@ export const plagiarismLinks = [
     name: 'PLAGIARISM CHECKER',
     url: 'https://www.plagiarismchecker.co/',
     description: '免费查重工具。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -22,7 +22,7 @@ export const plagiarismLinks = [
     name: 'Dupli Checker',
     url: 'https://www.duplichecker.com/',
     description: '免费的 plagiarism checker。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -30,7 +30,7 @@ export const plagiarismLinks = [
     name: 'Copyscape',
     url: 'https://www.copyscape.com/',
     description: '免费的 plagiarism checker。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -38,7 +38,7 @@ export const plagiarismLinks = [
     name: 'Plagium',
     url: 'https://www.plagium.com/',
     description: '英文论文抄袭和不端检测。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -46,7 +46,7 @@ export const plagiarismLinks = [
     name: '格子达',
     url: 'https://www.gezida.com/',
     description: '收费论文检测。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -54,7 +54,7 @@ export const plagiarismLinks = [
     name: 'PaperPass',
     url: 'https://www.paperpass.com/',
     description: '中文论文查重系统。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -62,7 +62,7 @@ export const plagiarismLinks = [
     name: '维普论文检测',
     url: 'https://vpcs.cqvip.com/',
     description: '维普论文检测系统。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -70,7 +70,7 @@ export const plagiarismLinks = [
     name: '万方检测',
     url: 'https://check.wanfangdata.com.cn/',
     description: '论文查重、学术不端甄别。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -78,7 +78,7 @@ export const plagiarismLinks = [
     name: 'Plagiarisma',
     url: 'https://plagiarisma.net/',
     description: '著名的 Plagiarism Checker。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -86,7 +86,7 @@ export const plagiarismLinks = [
     name: 'iThenticate',
     url: 'https://www.ithenticate.com/',
     description: '顶尖研究人员与出版商信赖的原创性检测系统。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
   link({
@@ -94,7 +94,7 @@ export const plagiarismLinks = [
     name: 'CNKI 不端检测',
     url: 'https://check.cnki.net/',
     description: '学位论文学术不端行为检测系统。',
-    categories: ['plagiarism'],
+    section: 'literature',
     tags: ['plagiarism'],
   }),
 ]

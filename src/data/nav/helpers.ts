@@ -1,6 +1,6 @@
-import type { NavCategoryId, ResourceLink } from '../../core/navTypes'
+import type { ResourceLink } from '../../core/navTypes'
 
-type LinkInput = Omit<ResourceLink, 'categories'> & { categories: NavCategoryId[] }
+type LinkInput = Omit<ResourceLink, never>
 
 export function link(input: LinkInput): ResourceLink {
   return input

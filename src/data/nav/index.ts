@@ -1,5 +1,6 @@
-import type { NavCategoryId, ResourceLink } from '../../core/navTypes'
+import type { NavSectionId, ResourceLink } from '../../core/navTypes'
 import { aiPlatformLinks } from './ai-platform'
+import { bioLlmLinks } from './bio-llm'
 import { communityLinks } from './community'
 import { dataMiningLinks } from './data-mining'
 import { dataRetrievalLinks } from './data-retrieval'
@@ -26,7 +27,6 @@ const EXTERNAL_LINKS: ResourceLink[] = [
   ...dataMiningLinks,
   ...onlineToolsExtLinks,
   ...visualizationLinks,
-  ...aiPlatformLinks,
   ...literatureSearchLinks,
   ...literatureTranslateLinks,
   ...plagiarismLinks,
@@ -39,34 +39,25 @@ const EXTERNAL_LINKS: ResourceLink[] = [
   ...journalsLinks,
   ...patentsLinks,
   ...standardsLinks,
+  ...bioLlmLinks,
+  ...aiPlatformLinks,
   ...communityLinks,
   ...educationLinks,
 ]
 
-/** 按 id 去重合并（跨分类条目只保留一条）。 */
+/** 按 id 去重（同 id 保留先出现的条目）。 */
 export function mergeResourceLinks(links: ResourceLink[]): ResourceLink[] {
   const map = new Map<string, ResourceLink>()
   for (const item of links) {
-    const existing = map.get(item.id)
-    if (!existing) {
-      map.set(item.id, { ...item, categories: [...item.categories] })
-      continue
+    if (!map.has(item.id)) {
+      map.set(item.id, item)
     }
-    const cats = new Set([...existing.categories, ...item.categories])
-    map.set(item.id, {
-      ...existing,
-      ...item,
-      categories: [...cats],
-      featured: existing.featured || item.featured,
-    })
   }
   return [...map.values()]
 }
 
 export const ALL_EXTERNAL_RESOURCES = mergeResourceLinks(EXTERNAL_LINKS)
 
-export function getResourcesByCategory(categoryId: NavCategoryId): ResourceLink[] {
-  return ALL_EXTERNAL_RESOURCES.filter((r) => r.categories.includes(categoryId))
+export function getResourcesBySection(sectionId: NavSectionId): ResourceLink[] {
+  return ALL_EXTERNAL_RESOURCES.filter((r) => r.section === sectionId)
 }
-
-export { NAV_CATEGORIES } from './categories'
