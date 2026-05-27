@@ -10,6 +10,10 @@ const NavSectionPage = lazy(() =>
   import('./pages/NavSectionPage').then((m) => ({ default: m.NavSectionPage })),
 )
 
+const SubmitSitePage = lazy(() =>
+  import('./pages/SubmitSitePage').then((m) => ({ default: m.SubmitSitePage })),
+)
+
 export default function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
@@ -36,6 +40,14 @@ export default function App() {
               element={<Navigate to={`/tools/${slug}`} replace />}
             />
           ))}
+          <Route
+            path="submit"
+            element={
+              <Suspense fallback={<LoadingFallback />}>
+                <SubmitSitePage />
+              </Suspense>
+            }
+          />
           <Route path="*" element={<Navigate to="/online-tools" replace />} />
         </Route>
       </Routes>

@@ -9,12 +9,21 @@ function isSectionActive(pathname: string, section: NavSection): boolean {
   return pathname === section.path
 }
 
+function resolveBrand(pathname: string, sections: NavSection[]) {
+  if (pathname === '/submit') {
+    return { label: '提交站点', to: '/submit' }
+  }
+  const activeSection = sections.find((s) => isSectionActive(pathname, s))
+  return {
+    label: activeSection?.label ?? '资源导航',
+    to: activeSection?.path ?? '/online-tools',
+  }
+}
+
 export function Layout() {
   const { pathname } = useLocation()
   const sections = listNavSections()
-  const activeSection = sections.find((s) => isSectionActive(pathname, s))
-  const brandLabel = activeSection?.label ?? '资源导航'
-  const brandTo = activeSection?.path ?? '/online-tools'
+  const { label: brandLabel, to: brandTo } = resolveBrand(pathname, sections)
 
   return (
     <div className="app">
@@ -54,7 +63,9 @@ export function Layout() {
           >
             GitHub
           </a>
-          <span className="muted small">提交站点（即将开放）</span>
+          <NavLink to="/submit" className="footer-link small">
+            提交站点
+          </NavLink>
         </div>
       </footer>
     </div>

@@ -834,3 +834,42 @@ a:hover {
     transform: scale(1);
   }
 }
+
+.submit-form-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.submit-preview {
+  position: sticky;
+  top: 1rem;
+}
+
+.submit-preview-body {
+  max-height: min(520px, 60vh);
+  overflow: auto;
+  font-size: 0.8rem;
+}
+
+.submit-success {
+  margin: 0;
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--accent) 75%, var(--text));
+}
+
+.button.small-btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .submit-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .submit-preview {
+    position: static;
+  }
+}
