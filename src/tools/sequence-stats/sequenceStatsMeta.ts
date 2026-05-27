@@ -2,7 +2,7 @@ import type { ToolMeta } from '../../core/types'
 
 export const sequenceStatsMeta: ToolMeta = {
   id: 'sequence-stats',
-  path: '/sequence-stats',
+  path: '/tools/sequence-stats',
   title: '序列统计',
   description: '',
   category: 'sequence',

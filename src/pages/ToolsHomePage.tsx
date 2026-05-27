@@ -5,7 +5,7 @@ import { listTools } from '../core/registry'
 
 type Filter = 'all' | CategoryId
 
-export function HomePage() {
+export function ToolsHomePage() {
   const tools = listTools()
   const [filter, setFilter] = useState<Filter>('all')
 
@@ -53,6 +53,7 @@ export function HomePage() {
                 <span className="card-tile-cat">{getCategoryLabel(t.category)}</span>
               )}
               <h2 className="card-tile-title">{t.title}</h2>
+              {t.description && <p className="resource-card-desc">{t.description}</p>}
               <div className="tags">
                 {t.tags.map((tag) => (
                   <span key={tag} className="tag">

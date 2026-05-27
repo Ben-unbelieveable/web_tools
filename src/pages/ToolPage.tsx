@@ -5,20 +5,18 @@ import { getToolByPath } from '../core/registry'
 
 export function ToolPage() {
   const { toolPath } = useParams()
-  const path = toolPath ? `/${toolPath}` : '/'
+  const path = toolPath ? `/tools/${toolPath}` : '/tools'
   const mod = getToolByPath(path)
 
   if (!mod) {
-    return <Navigate to="/" replace />
+    return <Navigate to="/tools" replace />
   }
 
   const { Component, meta } = mod
 
   return (
     <div className="page stack">
-      <header className="page-header">
-        <h1 className="h1">{meta.title}</h1>
-      </header>
+      <h1 className="h1">{meta.title}</h1>
       <Suspense fallback={<LoadingFallback />}>
         <Component />
       </Suspense>

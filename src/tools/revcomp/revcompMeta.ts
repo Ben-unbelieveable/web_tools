@@ -2,7 +2,7 @@ import type { ToolMeta } from '../../core/types'
 
 export const revcompMeta: ToolMeta = {
   id: 'revcomp',
-  path: '/revcomp',
+  path: '/tools/revcomp',
   title: '反向互补 / 兼并碱基',
   description: '',
   category: 'sequence',

@@ -37,6 +37,10 @@ export function listTools(): ToolMeta[] {
 }
 
 export function getToolByPath(path: string): ToolModule | undefined {
-  const normalized = path.startsWith('/') ? path : `/${path}`
+  let normalized = path.startsWith('/') ? path : `/${path}`
+  if (!normalized.startsWith('/tools/')) {
+    const slug = normalized.replace(/^\//, '')
+    if (slug && slug !== 'tools') normalized = `/tools/${slug}`
+  }
   return modules.find((m) => m.meta.path === normalized)
 }

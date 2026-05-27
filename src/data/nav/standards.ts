@@ -1,0 +1,68 @@
+import { link } from './helpers'
+
+export const standardsLinks = [
+  link({
+    id: 'gb-open',
+    name: '国家标准全文公开系统',
+    url: 'https://openstd.samr.gov.cn/',
+    description: '国家市场监督管理总局主办的标准全文公开系统。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'china-standard',
+    name: '中国标准信息服务网',
+    url: 'https://www.cssn.net.cn/',
+    description: '国家标准技术审评中心运营的标准信息服务平台。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'standard-lib',
+    name: '标准库',
+    url: 'http://www.biaozhun.org/',
+    description: '提供多类标准免费下载的专业平台。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'gb-web',
+    name: '国家标准网',
+    url: 'http://www.gb688.cn/',
+    description: '提供最新国家标准下载的专业网站。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'gb-online-query',
+    name: '在线国家标准查询',
+    url: 'https://std.samr.gov.cn/',
+    description: '便捷的在线国家标准查询工具。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'iso',
+    name: 'ISO',
+    url: 'https://www.iso.org/',
+    description: '国际标准化组织官方网站。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'gongbiao',
+    name: '工标网',
+    url: 'http://www.csres.com/',
+    description: '专业的标准门户网站。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+  link({
+    id: 'standard-free',
+    name: '标准免费下载网',
+    url: 'http://www.bzxz.net/',
+    description: '提供国家标准、行业标准等免费下载服务。',
+    categories: ['standards'],
+    tags: ['standard'],
+  }),
+]

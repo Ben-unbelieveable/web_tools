@@ -1,0 +1,68 @@
+import { link } from './helpers'
+
+export const visualizationLinks = [
+  link({
+    id: 'hiplot',
+    name: 'Hiplot',
+    url: 'https://hiplot.com.cn/',
+    description: '开源科学可视化平台，提供丰富的科研绘图工具。',
+    categories: ['visualization'],
+    tags: ['plot'],
+  }),
+  link({
+    id: 'cnsknowall',
+    name: 'cnsknowall',
+    url: 'https://www.cnsknowall.com/',
+    description: '一站式科研工具集合平台，整合多种数据分析工具。',
+    categories: ['visualization'],
+    tags: ['tools'],
+  }),
+  link({
+    id: 'imagegp',
+    name: 'ImageGP',
+    url: 'https://www.bic.ac.cn/ImageGP/',
+    description: '生物信息学在线绘图平台，支持多种科研图表绘制。',
+    categories: ['visualization'],
+    tags: ['plot', 'bioinformatics'],
+  }),
+  link({
+    id: 'weishengxin',
+    name: '微生信绘图',
+    url: 'https://www.bioinformatics.com.cn/',
+    description: '专业生物信息学绘图工具，提供多种可视化解决方案。',
+    categories: ['visualization'],
+    tags: ['plot'],
+  }),
+  link({
+    id: 'venn-online',
+    name: 'Venn 在线',
+    url: 'http://bioinformatics.psb.ugent.be/webtools/Venn/',
+    description: '在线维恩图绘制工具，支持多组数据比较分析。',
+    categories: ['visualization'],
+    tags: ['venn'],
+  }),
+  link({
+    id: 'r-graph-gallery',
+    name: 'The R Graph Gallery',
+    url: 'https://r-graph-gallery.com/',
+    description: 'R 语言绘图大全，提供丰富的可视化案例和源代码。',
+    categories: ['visualization'],
+    tags: ['r', 'plot'],
+  }),
+  link({
+    id: 'kmplot',
+    name: 'KMplot',
+    url: 'http://kmplot.com/analysis/',
+    description: '在线生存曲线绘制工具，支持 Kaplan-Meier 分析。',
+    categories: ['visualization'],
+    tags: ['survival'],
+  }),
+  link({
+    id: 'itol',
+    name: 'iTOL',
+    url: 'https://itol.embl.de/',
+    description: '进化树高级可视化工具，支持多种树形图美化功能。',
+    categories: ['visualization'],
+    tags: ['phylogeny'],
+  }),
+]
