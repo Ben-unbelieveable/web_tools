@@ -14,6 +14,10 @@ const SubmitSitePage = lazy(() =>
   import('./pages/SubmitSitePage').then((m) => ({ default: m.SubmitSitePage })),
 )
 
+const AboutPage = lazy(() =>
+  import('./pages/AboutPage').then((m) => ({ default: m.AboutPage })),
+)
+
 export default function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
@@ -45,6 +49,14 @@ export default function App() {
             element={
               <Suspense fallback={<LoadingFallback />}>
                 <SubmitSitePage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="about"
+            element={
+              <Suspense fallback={<LoadingFallback />}>
+                <AboutPage />
               </Suspense>
             }
           />

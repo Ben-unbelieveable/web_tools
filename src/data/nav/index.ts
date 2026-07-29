@@ -1,5 +1,6 @@
 import type { NavSectionId, ResourceLink } from '../../core/navTypes'
 import { aiPlatformLinks } from './ai-platform'
+import { benchmarkLinks } from './benchmark'
 import { bioLlmLinks } from './bio-llm'
 import { communityLinks } from './community'
 import { dataMiningLinks } from './data-mining'
@@ -40,6 +41,7 @@ const EXTERNAL_LINKS: ResourceLink[] = [
   ...patentsLinks,
   ...standardsLinks,
   ...bioLlmLinks,
+  ...benchmarkLinks,
   ...aiPlatformLinks,
   ...communityLinks,
   ...educationLinks,

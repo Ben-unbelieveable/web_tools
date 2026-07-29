@@ -7,6 +7,7 @@ export type NavSectionId =
   | 'patents'
   | 'standards'
   | 'bio-llm'
+  | 'benchmark'
   | 'ai'
   | 'ebooks'
   | 'funding'

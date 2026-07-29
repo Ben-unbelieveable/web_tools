@@ -13,6 +13,9 @@ function resolveBrand(pathname: string, sections: NavSection[]) {
   if (pathname === '/submit') {
     return { label: '提交站点', to: '/submit' }
   }
+  if (pathname === '/about') {
+    return { label: '关于', to: '/about' }
+  }
   const activeSection = sections.find((s) => isSectionActive(pathname, s))
   return {
     label: activeSection?.label ?? '资源导航',
@@ -24,6 +27,7 @@ export function Layout() {
   const { pathname } = useLocation()
   const sections = listNavSections()
   const { label: brandLabel, to: brandTo } = resolveBrand(pathname, sections)
+  const aboutActive = pathname === '/about'
 
   return (
     <div className="app">
@@ -44,6 +48,12 @@ export function Layout() {
                 {s.label}
               </NavLink>
             ))}
+            <NavLink
+              to="/about"
+              className={() => `header-nav-link ${aboutActive ? 'active' : ''}`}
+            >
+              关于
+            </NavLink>
           </nav>
         </div>
       </header>
@@ -65,6 +75,9 @@ export function Layout() {
           </a>
           <NavLink to="/submit" className="footer-link small">
             提交站点
+          </NavLink>
+          <NavLink to="/about" className="footer-link small">
+            关于
           </NavLink>
         </div>
       </footer>

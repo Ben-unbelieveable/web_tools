@@ -38,11 +38,16 @@ export const NAV_SECTIONS: readonly NavSection[] = [
     order: 6,
     path: '/bio-llm',
   },
-  { id: 'ai', label: 'AI 工具', description: '大模型与 AI 科研助手', order: 7, path: '/ai' },
-  { id: 'ebooks', label: '电子书', order: 8, path: '/ebooks' },
-  { id: 'funding', label: '基金', order: 9, path: '/funding' },
-  { id: 'community', label: '社区', order: 10, path: '/community' },
-  { id: 'learning', label: '学习', description: '慕课与在线课程', order: 11, path: '/learning' },
+  {
+    id: 'benchmark',
+    label: 'Benchmark',
+    description: '生物大模型相关数据集与评测集',
+    order: 7,
+    path: '/benchmark',
+  },
+  { id: 'ai', label: 'AI 工具', description: '大模型与 AI 科研助手', order: 8, path: '/ai' },
+  { id: 'community', label: '社区', order: 9, path: '/community' },
+  { id: 'learning', label: '学习', description: '慕课与在线课程', order: 10, path: '/learning' },
 ] as const
 
 export const NAV_SECTION_IDS: readonly NavSectionId[] = NAV_SECTIONS.map((s) => s.id)
