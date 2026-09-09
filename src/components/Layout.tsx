@@ -1,4 +1,5 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { VercountStats } from './VercountStats'
 import { listNavSections } from '../core/navSections'
 import type { NavSection } from '../core/navTypes'
 
@@ -63,7 +64,8 @@ export function Layout() {
       </main>
 
       <footer className="footer">
-        <div className="footer-inner row wrap gap">
+        <div className="footer-inner footer-inner--stack">
+          <div className="row wrap gap">
           <span className="muted small">资源导航与在线工具集</span>
           <a
             className="footer-link small"
@@ -79,6 +81,8 @@ export function Layout() {
           <NavLink to="/about" className="footer-link small">
             关于
           </NavLink>
+          </div>
+          <VercountStats />
         </div>
       </footer>
     </div>

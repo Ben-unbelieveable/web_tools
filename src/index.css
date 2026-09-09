@@ -163,6 +163,21 @@ a:hover {
   align-items: center;
 }
 
+.footer-inner--stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-stats {
+  line-height: 1.5;
+}
+
+.footer-stat-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
 .footer-link {
   color: var(--accent);
 }
